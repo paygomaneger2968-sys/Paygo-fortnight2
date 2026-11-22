@@ -27,7 +27,9 @@ export default function GroupsPage() {
   }
 
   const handleJoinTelegram = () => {
-    window.open("https://chat.whatsapp.com/JNZxfqKPu524fiGjLq7iep?s=cl&p=a&iam=2, "_blank")
+    const handleJoinTelegram = () => {
+  window.open("YOUR_TELEGRAM_INVITE_LINK", "_blank")
+    }
   }
 
   if (!userData) {
